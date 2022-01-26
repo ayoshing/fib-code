@@ -28,7 +28,7 @@ class Fib
 		@sum_of_even_terms
 	end
 
-  def reset_memo()
+  	def reset_memo()
 		@memo = [1,2]
 	end
 
@@ -47,6 +47,3 @@ class Fib
 		@value
 	end
 end
-
-fib = Fib.new(10)
-puts fib.sequence()
